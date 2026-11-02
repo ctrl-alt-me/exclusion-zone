@@ -1,0 +1,12 @@
+name: ExclusionZone
+version: 1.0.0
+main: com.exclusionzone.ExclusionZonePlugin
+api-version: 26
+permissions:
+  exclusionzone.admin:
+    description: Allows managing protected regions and regenerating chunks
+    default: false
+commands:
+  xz:
+    description: Manage protected regions and regenerate chunks outside them
+    permission: exclusionzone.admin
